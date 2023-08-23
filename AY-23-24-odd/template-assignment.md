@@ -33,8 +33,8 @@ kedua orang $A$ dan $B$.
 ### Jawaban
 
 Misalkan dua proposisi $p$ dan $q$ sebagai berikut:
-- $p = $ \"$`A`$ adalah pemuka agama\"
-- $q = $ \"$`B`$ adalah pemuka agama\"
+- $`p = `$ \"$`A`$ adalah pemuka agama\"
+- $`q = `$ \"$`B`$ adalah pemuka agama\"
 
 Dan perkataan $A$ dan $B$ dapat dinyatakan dalam bentuk 
 proposisi 
