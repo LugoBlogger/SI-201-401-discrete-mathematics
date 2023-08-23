@@ -46,7 +46,10 @@ Bentuk proposisi perkataan B merupakan dua pasangan
 kemungkinan dari perkataan B:    
 $$
 \begin{align*}
-  \text{($A$ adalah pemuka agama \textbf{dan} $B$ adalah pencuri) \textbf{atau} ($A$ adalah pencuri \textbf{dan} $B$ adalah pemuka agama)}
+  (A \text{ adalah pemuka agama } 
+  \textbf{dan } B \text{ adalah pencuri}) 
+  \textbf{ atau } (A \text{ adalah pencuri }
+    \textbf{dan } B \text{ adalah pemuka agama})
 \end{align*}
 $$
 
