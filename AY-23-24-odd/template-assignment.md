@@ -44,14 +44,7 @@ proposisi
 
 Bentuk proposisi perkataan B merupakan dua pasangan 
 kemungkinan dari perkataan B:    
-$$
-\begin{align*}
-  (A \text{ adalah pemuka agama } 
-  \textbf{dan } B \text{ adalah pencuri}) 
-  \textbf{ atau } (A \text{ adalah pencuri }
-    \textbf{dan } B \text{ adalah pemuka agama})
-\end{align*}
-$$
+$$(A \text{ adalah pemuka agama } \textbf{dan } B \text{ adalah pencuri}) \textbf{ atau } (A \text{ adalah pencuri } \textbf{dan } B \text{ adalah pemuka agama}) $$
 
 Kita memiliki dua kemungkinan bahwa $p$ bernilai benar 
 ($A$ adalah pemuka agama) atau salah ($A$ adalah pencuri). 
