@@ -68,7 +68,7 @@ dapat dihitung bahwa
 $$
 \begin{align*}
   (p \wedge \neg q) \vee (\neg p \wedge q) 
-    &= (\textbf{T} \,\wedge \textbf{F}) 
+    &= (\textbf{T} \wedge \textbf{F}) 
         \vee (\textbf{F} \wedge \textbf{T}) \\
     &= \textbf{F} \vee \textbf{F} \\
     &= \textbf{F} 
@@ -94,7 +94,7 @@ dapat dihitung bahwa
 $$\
 \begin{align*}
   (p \wedge \neg q) \vee (\neg p \wedge q) 
-    &= (\textbf{F} \,\wedge \textbf{T}) 
+    &= (\textbf{F} \wedge \textbf{T}) 
         \vee (\textbf{T} \wedge \textbf{F}) \\
     &= \textbf{F} \vee \textbf{F} \\
     &= \textbf{F} 
