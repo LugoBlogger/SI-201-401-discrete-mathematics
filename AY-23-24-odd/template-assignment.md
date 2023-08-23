@@ -25,7 +25,7 @@ tidak tahu apakah $A$ pemuka agama atau pencuri demikian
 dengan $B$. Kita hanya memperoleh informasi dari dua 
 pernyataan berikut:
 - $A$ berkata, \"$`B`$ adalah pemuka agama\".
-- $B$ berkata, $``\text{Kami berdua memiliki dua peran berbeda}"$.
+- $B$ berkata, \"Kami berdua memiliki dua peran berbeda\".
 
 Tentukan peran (pemuka agama atau pencuri) dari 
 kedua orang $A$ dan $B$.
@@ -33,8 +33,8 @@ kedua orang $A$ dan $B$.
 ### Jawaban
 
 Misalkan dua proposisi $p$ dan $q$ sebagai berikut:
-- $p = "A \text{ adalah pemuka agama}$"
-- $q = "B \text{ adalah pemuka agama}$"
+- $p = $ \"$`A`$ adalah pemuka agama\"
+- $q = $ \"$`B`$ adalah pemuka agama\"
 
 Dan perkataan $A$ dan $B$ dapat dinyatakan dalam bentuk 
 proposisi 
@@ -44,12 +44,12 @@ proposisi
 
 Bentuk proposisi perkataan B merupakan dua pasangan 
 kemungkinan dari perkataan B:    
-$$
+```math
 \text{($A$ adalah pemuka agama 
       \textbf{dan} $B$ adalah pencuri) 
 \textbf{atau} 
   ($A$ adalah pencuri \textbf{dan} $B$ adalah pemuka agama)}
-$$
+```
 
 Kita memiliki dua kemungkinan bahwa $p$ bernilai benar 
 ($A$ adalah pemuka agama) atau salah ($A$ adalah pencuri). 
