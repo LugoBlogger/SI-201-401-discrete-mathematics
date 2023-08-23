@@ -13,7 +13,7 @@ Berikan juga alasannya
 2. Berapa kali mahasiswa harus mengikuti kelas Matematika
   diskrit?
 3. $3 + y = 14$ 
-4. $34 \equiv 1 \quad (\operatorname{mod} 11)$
+4. $34 \equiv 1 \quad (\text{mod } 11)$
 5. Anita dan Bayu saling berteman.
 
 :bulb: **Petunjuk**: Silahkan dilihat makna operasi modulo
