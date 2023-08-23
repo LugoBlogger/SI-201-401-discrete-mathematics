@@ -38,7 +38,7 @@ Misalkan dua proposisi $p$ dan $q$ sebagai berikut:
 
 Dan perkataan $A$ dan $B$ dapat dinyatakan dalam bentuk 
 proposisi 
-- perkataan A: "$B$ adalah pemuka agama" = $q$
+- perkataan A: \"$`B`$ adalah pemuka agama\" $` = q`$
 - perkataan B: "Kami berdua memiliki dua peran berbeda"    
   = $(p \wedge \neg q) \vee (\neg p \wedge q)$
 
