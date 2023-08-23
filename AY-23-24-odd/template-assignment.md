@@ -24,8 +24,8 @@ dengan dua orang $A$ dan $B$ di pulau tersebut dan kita
 tidak tahu apakah $A$ pemuka agama atau pencuri demikian
 dengan $B$. Kita hanya memperoleh informasi dari dua 
 pernyataan berikut:
-- $A$ berkata, \"$B$ adalah pemuka agama\".
-- $B$ berkata, "Kami berdua memiliki dua peran berbeda".
+- $A$ berkata, $``B \text{ adalah pemuka agama}"$.
+- $B$ berkata, $``\text{Kami berdua memiliki dua peran berbeda}"$.
 
 Tentukan peran (pemuka agama atau pencuri) dari 
 kedua orang $A$ dan $B$.
