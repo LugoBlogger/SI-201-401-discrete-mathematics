@@ -44,12 +44,14 @@ proposisi
 
 Bentuk proposisi perkataan B merupakan dua pasangan 
 kemungkinan dari perkataan B:    
-```math
+$$
+\begin{gather*}
 \text{($A$ adalah pemuka agama 
       \textbf{dan} $B$ adalah pencuri) 
 \textbf{atau} 
   ($A$ adalah pencuri \textbf{dan} $B$ adalah pemuka agama)}
-```
+\end{gather*}
+$$
 
 Kita memiliki dua kemungkinan bahwa $p$ bernilai benar 
 ($A$ adalah pemuka agama) atau salah ($A$ adalah pencuri). 
@@ -96,7 +98,7 @@ Di lain sisi, karena kita memiliki $p$ salah ($\textbf{F}$) dan
 $q$ salah ($\textbf{F}$) (lihat proposisi yang diberi kotak),
 dapat dihitung bahwa
 
-$$
+$$\
 \begin{align*}
   (p \wedge \neg q) \vee (\neg p \wedge q) 
     &= (\textbf{F} \,\wedge \textbf{T}) 
@@ -172,7 +174,5 @@ $p \rightarrow q$,
 $p \leftrightarrow q$
 
 **Contoh persamaan rata tengah**
-$$
- (\neg p \rightarrow q) \vee (p \leftrightarrow q) 
-$$
+$$(\neg p \rightarrow q) \vee (p \leftrightarrow q)$$
 
