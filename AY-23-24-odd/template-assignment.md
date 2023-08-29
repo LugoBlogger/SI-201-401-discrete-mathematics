@@ -91,7 +91,7 @@ Di lain sisi, karena kita memiliki $p$ salah ($\textbf{F}$) dan
 $q$ salah ($\textbf{F}$) (lihat proposisi yang diberi kotak),
 dapat dihitung bahwa
 
-$$\
+$$
 \begin{align*}
   (p \wedge \neg q) \vee (\neg p \wedge q) 
     &= (\textbf{F} \wedge \textbf{T}) 

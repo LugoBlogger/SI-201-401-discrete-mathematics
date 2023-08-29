@@ -1,0 +1,11 @@
+- Boolean functions
+  - Introduction
+  - Boolean expressions and Boolean functions
+  - Identities of Boolean algebra
+  - Duality
+  - The abstract definition of a Boolean Algebra
+
+- Representing Boolean Functions
+  - Sum-of-product expansions
+    - Definition of literal
+  - (optional) functional completeness

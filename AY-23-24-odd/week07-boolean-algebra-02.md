@@ -1,0 +1,11 @@
+- Logic gates
+  - Introduction
+  - Combination of gates
+  - Example of circuits
+  - Adders
+
+- Minimization of circuits
+  - Introduction
+  - Karnaguh maps
+  - (optional) Don't care conditions
+  - (optional) The Quine-McCluskey Method
