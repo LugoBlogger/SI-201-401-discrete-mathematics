@@ -1,0 +1,13 @@
+- Set Operations
+  - Introduction
+    - Definition of union of the sets $A$ and $B$
+    - Definition of intersection of the sets $A$ and $B$
+    - Definition of two disjoint sets
+    - Definition of difference of two sets $A$ and $B$
+    - Principle of inclusion-exclusion
+    - Definition of complement of a set
+  - Set identities
+    - De Morgan's laws
+  - Membership tables
+  - (optional) Generalized Unions and Intersections
+  - Computer representation of sets
