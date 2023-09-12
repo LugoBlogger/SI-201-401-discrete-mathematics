@@ -1,11 +1,13 @@
-- Logic gates
-  - Introduction
-  - Combination of gates
-  - Example of circuits
-  - Adders
+# Boolean algebra (part 02)
 
-- Minimization of circuits
-  - Introduction
-  - Karnaguh maps
-  - (optional) Don't care conditions
-  - (optional) The Quine-McCluskey Method
+## Logic gates
+- Introduction
+- Combination of gates
+- Example of circuits
+- Adders
+
+## Minimization of circuits
+- Introduction
+- Karnaugh maps
+- (optional) Don't care conditions
+- (optional) The Quine-McCluskey Method
