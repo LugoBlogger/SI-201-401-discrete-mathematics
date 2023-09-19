@@ -7,10 +7,30 @@
 - etc.
 
 ## Problem 1
+Tentukan pernyataan berikut apakah bernilai benar atau salah, dan jelaskan 
+mengapa bernilai benar atau bernilai salah
+1. $\{\,\} \in \{ \{\,\} \}$   
+2. $\{\{\,\}\} \in \{ \{\,\}\}$
+3. $\{\{\,\}\} \subset \{ \{\,\}, \{ \{\,\} \} \}$
+4. $\{\{ \{\,\}\}\} \subset \{\{\{\,\}\}, \{\{\,\}\}\}$
+5. $\{\,\} \in \{\{\,\}, \{\{\,\}\}\}$
+6. $\{\{\,\}\} \in \{\{\{\,\}\}\}$
+7. $\{\{\{\,\}\}\} \subset \{\{\,\}, \{\{\,\}\}\}$
 
 ### Answer
 
 ## Problem 2
+Diberikan dua buah himpunan $A$ dan $B$, operasi **selisih simetrik**
+yang dinotasikan $A \oplus B$ adalah himpunan yang memuat elemen-elemen
+yang berada di $A$ atau di $B$ namun yang tidak berada bersamaan di 
+$A$ dan $B$.
+1. Carilah selisih simetrik dari dua himpunan berikut: $\{1, 3, 5\}$
+   dan $\{1, 2, 3\}$
+2. Carilah selisih simetrik dari himpunan mahasiswa SI yang mengambil 
+   kelas Matematika diskrit dan himpunan mahasiswa SI yang mengambil 
+   kelas Kalkulus 1
+3. Gambarkan diagram Venn untuk operasi selisih simetrik dari dua 
+   himpunan $A$ dan $B$.
 
 ### Answer
 
