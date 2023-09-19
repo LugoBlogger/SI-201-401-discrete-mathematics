@@ -16,7 +16,7 @@
 - Problem 3    
   Given a schematic of a computer usage by 15 people:
 
-  <img src="./figures/function-prob-03.drawio.png" width=1000>
+  <img src="./figures/function-prob-03.drawio.png" width=500>
 
   Example of the usage scenario:
   - `user0` takes 3 A.M. - 4 A.M.
@@ -36,33 +36,52 @@
   by the function $f$ to the element $a$ of $A$. If $f$
   is a function from $A$ to $B$, we write $f: A \rightarrow B$.
 
-- Domain, codomain, image, pre-image, range or image,
+  - A figure that represents a functon
+
+- Domain, codomain, image, pre-image, range,
   maps
 
-- Two function are **equal** when they have the same domain, have the same
-  codomain, and map each element of their commin domain to the same element
-  in their common domain.
+- Examples: 
+  - Assignments of grades to the students
+  - Round-down function for a decimal
 
-- Examples
+- Two function are **equal** when they have the same domain, have the same
+  codomain, and map each element of their common domain to the same element in their common domain.
+
 
 - Function addition
   
 ## One-to-one and onto functions
-- injective
-- surjective
+- injective function    
+  A function $f$ is said to be _one-to-one_, or
+  an _injection_, if and only 
+  if $f(a_1) = f(a_2)$
+  implies that $a_1 = a_2$ 
+  for all $a_1$ and $a_2$ in
+  the domain of $f$. A function is said to be 
+  _injective_ if it is one-to-one.
+  
+- surjective function     
+  A function $f$ from $A$ to $B$ is called 
+  _onto_, or a _surjective_, if and only if
+  for every element $b \in B$ there is an 
+  element $a \in A$ with $f(a) = b$.
+  A function $f$ is called _surjective_ if it is
+  onto.
+  
 - bijective
 
 ## Inverse functions and compositions of functions
 - Definition of inverse function
 - Definition of composition of two functions $f$ and $g$
 
-## The graphs of functions
+## [not yet] The graphs of functions
 
 Let $f$ be a function from the set $A$ to the set $B$. The _graph_ of
 the function $f$ is the set of ordered pairs 
 $\{(a, b) a \in A \text{ and } f(a) = b\}$.
 
-## Some important functions
+## [not yet] Some important functions
 - Floor function
 - Factorial functions
   

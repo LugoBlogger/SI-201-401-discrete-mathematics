@@ -140,10 +140,10 @@ Contoh daftar tanpa nomor
 
 Contoh penyisipan gambar menggunakan perintah bawaan 
 Markdown
-![nama_image](./figures/pexels-photo-41126.jpeg)
+![nama_image](../figures/pexels-photo-41126.jpeg)
 
 Contoh penyisipan gamabr menggunakan perintah HTML `<img>`
-<img src="./figures/pexels-photo-41126.jpeg" width=300>
+<img src="../figures/pexels-photo-41126.jpeg" width=300>
 
 
 Contoh tabel
