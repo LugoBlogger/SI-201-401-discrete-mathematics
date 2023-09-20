@@ -122,17 +122,17 @@ Before we discuss about we define the following definitions:
   | 1 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 |
   | 1 | 1 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | 1 | 1 | 1 | 1 | 1 | 1 | 1 | 1 |
 
-  $$
-  \begin{align*}
+  $$ 
+    \begin{equation*}
     2^2 \left\{
-    \begin{aligned}
+      \begin{aligned}
       (0, 0) \rightarrow \text{2 possible output} \\
       (0, 1) \rightarrow \text{2 possible output} \\
       (1, 0) \rightarrow \text{2 possible output} \\
       (1, 1) \rightarrow \text{2 possible output}
-    \end{aligned}
+      \end{aligned}
     \right.
-  \end{align*}
+    \end{equation*}
   $$
 
   $$

@@ -9,7 +9,7 @@
 ## Problem 1
 Tentukan pernyataan berikut apakah bernilai benar atau salah, dan jelaskan 
 mengapa bernilai benar atau bernilai salah
-1. $\{\,\} \in \{ \{\,\} \}$   
+1. $`\{\,\} \in \{ \{\,\} \}`$   
 2. $\{\{\,\}\} \in \{ \{\,\}\}$
 3. $\{\{\,\}\} \subset \{ \{\,\}, \{ \{\,\} \} \}$
 4. $\{\{ \{\,\}\}\} \subset \{\{\{\,\}\}, \{\{\,\}\}\}$
