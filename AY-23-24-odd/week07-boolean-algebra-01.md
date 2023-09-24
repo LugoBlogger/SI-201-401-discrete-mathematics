@@ -30,14 +30,14 @@ $\rightarrow$ Boolean sums)
 
 Example:  
 $$
-  1 \cdot 0 + \overline{(0 + 1)} = 0 + \overline{1} = 0 + 0 + 0
+  1 \cdot 0 + \overline{(0 + 1)} = 0 + \overline{1} = 0 + 0 = 0
 $$
 
 Comparison between propositional logic and boolean algebra
 |   | operator | variables |
 |---|----------|-----------|
-|**Propositional logic** | $(\neg, \wedge, \vee)$               | $\{0, 1\}$ |
-|**Boolean algebra**     | $(\overline{\phantom{x}}, \cdot, +)$ | $\{\text{True}, \text{False}\}$
+|**Propositional logic** | $(\neg, \wedge, \vee)$               | $\{\text{True}, \text{False}\}$ |
+|**Boolean algebra**     | $(\overline{\phantom{x}}, \cdot, +)$ | $\{1, 0\}$
 
 ### Boolean expressions and Boolean functions   
 Before we discuss about we define the following definitions:
