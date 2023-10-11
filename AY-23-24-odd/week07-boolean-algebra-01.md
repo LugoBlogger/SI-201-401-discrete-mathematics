@@ -212,7 +212,7 @@ $$
 
 ### Duality  
 The **dual** of a Boolean expression is obtained by interchanging Boolean
-sum and Boolean product and interchanging $0$s and $1$s
+sum and Boolean product and interchanging $0$'s and $1$'s
 $$
   + \rightleftarrows \cdot \\
   0 \rightleftarrows 1
@@ -293,7 +293,7 @@ $$
 
 ### Example of First Problem
 We are given the value of a Boolean function. Turn them into Boolean expressions
-| $x$   | $y$   | $x$   | $F$   | $G$   | |
+| $x$   | $y$   | $z$   | $F$   | $G$   | |
 |-------|-------|-------|-------|-------|-|
 | 1     | 1     | 1     | 0     | 0     | |
 | **1** | **1** | **0** | **0** | **1** | $\leftarrow$ |

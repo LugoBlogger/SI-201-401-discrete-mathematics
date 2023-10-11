@@ -11,11 +11,15 @@ List of available topics for the final projects
 
 3. Functions
 
-4. Boolean algebra
+4. Boolean algebra   
+   - Full adder circuit and boolean expression
+     Perform addition as its example.
+   - K-maps for five boolean variables  $(v, w, x, y, z)$
 
 5. Relations
 
 6. Combinatorials
+   - McNugget numbers
 
 7. Graphs
 
