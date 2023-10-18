@@ -66,15 +66,10 @@ $(2, 1)$ is in $R_2$
 ## $n$-ary relations and their applications
 ### Introduction
 ### $n$-ary relations
-### Databases and relations
-- **records**
-- **fields**
-- **tables**
-- **attributes**
-- **primary keys**
 
-- **extension**
-- **intension**
+5-tuple of flight information
+
+### Databases and relations
 
 **Table 1**: `students`
 | `student_name` | `id_number` | `major`              | `gpa` |
@@ -86,8 +81,22 @@ $(2, 1)$ is in $R_2$
 | Rasyid         | 11100501    | Informatics          | 3.90  |
 | Stefani        | 18100102    | Digital business     | 2.99  | 
 
+- **records**
+- **fields**
+- **tables**
+- **attributes**
+- **primary keys**
+
+- (optional) **extension**
+- (optional) **intension**
+
 
 ### Operations on $n$-ary relations
+
+- Selection
+- Projection
+- Join
+
 
 **Table 2**: `gpas`
 | `student_name` | `gpa` |
