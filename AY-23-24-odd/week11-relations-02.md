@@ -9,11 +9,46 @@ Objectives:
 
 **Symmetric**
 
-**Anti-symmetric**
+**Anti-symmetric**   
+A relation $R$ on a set $A$ is called **antisymmetric** if $(a, b) \in R$ and $(b, a)  \in R$, then $a = b$, for all $a, b \in A$.
+
+This definition of antisymmetric is much more difficult to use.
+The contrapositive version is much more easier to apply to the problem
+
+The statements of the definition of **antisymetric** can be   
+translated to 
+$$
+\begin{align*}
+p \wedge q \rightarrow r 
+  &\equiv \neg r \rightarrow \neg (p \wedge q) \quad \text{(De Morgan's law)}\\
+  &\equiv \neg r \rightarrow (\neg p \vee \neg q) 
+\end{align*}
+$$
+
+Translate the above statement to the new definition of antisymmetric:   
+A relation $R$ on a set $A$ is called **antisymmetric** if $a \neq b$, then $(a, b) \notin R$ or $(b, a) \notin R$, for all 
+$a, b \in A$.
 
 **Transitive**
 
+## Some examples in properties of relations
 
+**Example**: Given a following set $A = \{1, 2, 3, 4, \}$ and a relation
+$R$ such that   
+$R = \{(1,1), (1, 2), (2, 1), (3, 3), (4, 4)\}$. Determine whether
+$R$ is reflexive, symmetric, and transitive.
+
+
+**Example**: Given a following set $A = \{1, 2, 3, 4, \}$ and a relation
+$R$ such that   
+$R = \{(1, 2), (2, 3), (3, 4)\}$. Determine whether
+$R$ is reflexive, symmetric, and transitive.
+
+**Example**: Given a set of all students in ITK and denoted by
+$M$. We also have the relation on $M$, we called it $R$ such that   
+$R = \{(a, b) \mid a, b \in M \text{ and the height of } a 
+\text{ is taller than } b \}$.  
+Determine whether $R$ is reflexive, symmetric, and transitive.
 
 ## Equivalence relation
 
@@ -124,3 +159,9 @@ If we assume that all edges are pointed "upward", we do not have to show the dir
 
 
 **Example**
+
+
+
+
+
+Eka (10231036)

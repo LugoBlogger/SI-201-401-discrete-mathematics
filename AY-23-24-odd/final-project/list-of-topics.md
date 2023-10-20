@@ -17,6 +17,7 @@ List of available topics for the final projects
    - K-maps for five boolean variables  $(v, w, x, y, z)$
 
 5. Relations
+   - Hasse diagrams
 
 6. Combinatorials
    - McNugget numbers

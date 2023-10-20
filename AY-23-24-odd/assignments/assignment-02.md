@@ -64,7 +64,7 @@ Tunjukkan bahwa dua identitas berikut berlaku
 ### Answer
 
 ## Problem 5   
-Carilah cara untuk menyatakan komplement, Boolean sum, 
+Carilah cara untuk menyatakan komplemen, Boolean sum, 
 dan Boolean product dengan hanya menggunakan NOR operator
 
 ### Answer
