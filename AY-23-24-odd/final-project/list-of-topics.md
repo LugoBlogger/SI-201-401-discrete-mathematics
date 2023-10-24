@@ -9,7 +9,10 @@ List of available topics for the final projects
    - Anther version of Venn diagram - Edward-Venn diagram; Compare their four-set diagram; 
    - UpSet - Visualizing of Intersecting Sets (Lex et al., 2014) 
 
-3. Functions
+3. Functions   
+   - Difference between function in math and computer
+     progra ming
+   - Hash function
 
 4. Boolean algebra   
    - Full adder circuit and boolean expression
@@ -25,3 +28,21 @@ List of available topics for the final projects
 7. Graphs
 
 8. Trees
+
+10. [Information systems](https://www.britannica.com/topic/information-system)
+    - Components of information systems: 
+      - Computer hardware
+      - Computer software
+      - Telecommunications
+      - Databases and data warehouses
+      - Human resources and procedures
+    - Type of information systems
+      - Operational support and enterprise systems
+      - Support of knowledge work
+      - Professional support systems
+      - Collaboration systems
+      - Knowledge management systems
+      - Management support
+      - Management reporting systems
+      - Decision support systems and business intelligence
+      - Executive information systems
