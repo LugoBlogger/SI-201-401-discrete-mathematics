@@ -16,7 +16,10 @@ List of available topics for the final projects
 
 4. Boolean algebra   
    - Full adder circuit and boolean expression
-     Perform addition as its example.
+     Perform addition as its example. 
+     (See Google Slides, [`final-project-example`](s.itk.ac.id/DiscMathFPTemplate)) [Not Available]
+   - Flip-flop circuit. A circuit to store information.
+     For exampele Set-Reset (SR) AND-OR latch
    - K-maps for five boolean variables  $(v, w, x, y, z)$
 
 5. Relations
@@ -24,12 +27,13 @@ List of available topics for the final projects
 
 6. Combinatorials
    - McNugget numbers
+   - Stable marriage problem
 
 7. Graphs
 
 8. Trees
 
-10. [Information systems](https://www.britannica.com/topic/information-system)
+10. Some other options that related to [Information systems](https://www.britannica.com/topic/information-system)
     - Components of information systems: 
       - Computer hardware
       - Computer software
