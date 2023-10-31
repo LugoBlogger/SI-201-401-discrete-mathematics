@@ -26,6 +26,7 @@ List of available topics for the final projects
    - Hasse diagrams
 
 6. Combinatorials
+   - Combination and permutation with in
    - McNugget numbers
    - Stable marriage problem
 

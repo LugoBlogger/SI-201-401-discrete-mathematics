@@ -65,7 +65,8 @@ has determined that in a farmer's pasture there are exactly 572
 legs. How many cows are there is this pasture, assuming that
 each cow has four legs and that there are no other animal present?
 
-### Example 21
+### Example 21 (optional)
+
 
 ## Tree diagrams
 A tree consists of a root, a number of branches laving the root, 
@@ -83,10 +84,19 @@ size and color of the T-shirt?
 
 ## Permutations and combinations
 
+### Example 1
+In how many ways can we select three students from a group of five students 
+to stand in line for a picture? In how many ways can we arrange all five
+of these students in a line for a picture?
+
 A **permutation** of a set of distinct objects is an ordered
 arrangement of these objects.   
 An ordered arrangement of $r$ elements of a set is called an
 **$r$-permutation**.
+
+### Example 2
+Let $S = \{1, 2, 3\}$. The ordered arrangement 3, 1, 2 is a permutation of
+$S$. The ordered arrangement 3, 2, is a 2-permutation of $S$.
 
 ### Theorem 1
 > If $n$ is a positive integer and $r$ is an integer with 
@@ -100,6 +110,16 @@ An ordered arrangement of $r$ elements of a set is called an
 > If $n$ and $r$ are integers with $0 \leq r \leq n$, then
 > $P(n, r) = \dfrac{n!}{(n-r)!}$
 
+
+### Example 4
+How many ways are there to select a first-prize winner, a second-prize winner,
+and a third-prize winner from 100 different people who have entered a contest?
+
+
+### Example 8
+How many different committees of three students can be formed from a group
+of four students?
+
 An **$r$-combination** of elements of a set is an unordered
 selection of $r$ elements from the set.
 
@@ -110,6 +130,8 @@ selection of $r$ elements from the set.
 > $$
 >   C(n, r)  = \frac{n!}{r!(n-r)!}
 > $$
+
+
 
 ## Permutations with repetitions and combinations with repetitions
 
@@ -149,3 +171,4 @@ of the word _SUCCESS_?
 > $$
 >  \frac{n!}{n_1! n_2! \cdots n_k!}
 > $$
+

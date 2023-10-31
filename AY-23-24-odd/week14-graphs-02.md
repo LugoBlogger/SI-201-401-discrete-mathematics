@@ -4,6 +4,10 @@ Applications of graphs
 
 ## Graph coloring
 
+In real world, graph coloring has a practical application
+such as register allocation in compiler. 
+See the complete lecture [CS143 - Compiler](https://web.stanford.edu/class/cs143/) from Stanford University.
+
 **Definition**: Graph  coloring  
 A **coloring** of a ...
 
