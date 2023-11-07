@@ -1,0 +1,308 @@
+(* Content-type: application/vnd.wolfram.mathematica *)
+
+(*** Wolfram Notebook File ***)
+(* http://www.wolfram.com/nb *)
+
+(* CreatedBy='Mathematica 12.3' *)
+
+(*CacheID: 234*)
+(* Internal cache information:
+NotebookFileLineBreakTest
+NotebookFileLineBreakTest
+NotebookDataPosition[       158,          7]
+NotebookDataLength[     13693,        300]
+NotebookOptionsPosition[     13119,        282]
+NotebookOutlinePosition[     13519,        298]
+CellTagsIndexPosition[     13476,        295]
+WindowFrame->Normal*)
+
+(* Beginning of Notebook Content *)
+Notebook[{
+Cell["\[ScriptCapitalR] (Esc + scR + Esc)", "Text",
+ CellChangeTimes->{{3.907833096482835*^9, 
+  3.907833104459773*^9}},ExpressionUUID->"518053ec-cf74-4015-941f-\
+20a7e05ef09f"],
+
+Cell[CellGroupData[{
+
+Cell[BoxData[{
+ RowBox[{
+  RowBox[{"\[ScriptCapitalR]", "=", 
+   RowBox[{"Dodecahedron", "[", "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"\[ScriptCapitalR]Coor", "=", 
+   RowBox[{"PolyhedronCoordinates", "[", "\[ScriptCapitalR]", "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"p1", "=", 
+   RowBox[{"Graphics3D", "[", "\[IndentingNewLine]", 
+    RowBox[{
+     RowBox[{"{", 
+      RowBox[{
+       RowBox[{"EdgeForm", "[", 
+        RowBox[{"{", "Thick", "}"}], "]"}], ",", " ", 
+       RowBox[{"FaceForm", "[", 
+        RowBox[{"{", 
+         RowBox[{"White", ",", " ", 
+          RowBox[{"Opacity", "[", "0.6", "]"}]}], "}"}], "]"}], ",", 
+       "\[ScriptCapitalR]"}], "}"}], ",", " ", 
+     RowBox[{"Boxed", "\[Rule]", "False"}], ",", " ", 
+     RowBox[{"Lighting", "\[Rule]", "\"\<Accent\>\""}]}], "]"}]}], 
+  ";"}], "\[IndentingNewLine]", 
+ RowBox[{
+  RowBox[{"p2", "=", 
+   RowBox[{"Graphics3D", "[", 
+    RowBox[{"Table", "[", 
+     RowBox[{
+      RowBox[{"Sphere", "[", 
+       RowBox[{
+        RowBox[{"\[ScriptCapitalR]Coor", "[", 
+         RowBox[{"[", "i", "]"}], "]"}], ",", " ", "0.07"}], "]"}], ",", 
+      RowBox[{"{", 
+       RowBox[{"i", ",", " ", "1", ",", " ", 
+        RowBox[{"Length", "[", "\[ScriptCapitalR]Coor", "]"}]}], "}"}]}], 
+     "]"}], "]"}]}], ";"}], "\[IndentingNewLine]", 
+ RowBox[{"Show", "[", 
+  RowBox[{"p1", ",", "p2"}], "]"}]}], "Input",
+ CellChangeTimes->{{3.907832996145769*^9, 3.907833004522236*^9}, {
+   3.907833042604911*^9, 3.9078330474924583`*^9}, {3.907833089220086*^9, 
+   3.907833264923314*^9}, {3.9078333042504396`*^9, 3.907833307628583*^9}, {
+   3.907833497552383*^9, 3.907833624786438*^9}, {3.907833724548779*^9, 
+   3.907833758124888*^9}, 3.907833920700014*^9, {3.907834014568459*^9, 
+   3.907834044151729*^9}, {3.9078341125828743`*^9, 3.907834127050194*^9}, {
+   3.907834191931108*^9, 3.907834283973587*^9}, {3.9078343863942432`*^9, 
+   3.907834423296742*^9}},
+ CellLabel->
+  "In[185]:=",ExpressionUUID->"e5ce3621-ce84-499e-8c90-4cfbeb986c31"],
+
+Cell[BoxData[
+ Graphics3DBox[{
+   {EdgeForm[Thickness[Large]], FaceForm[{GrayLevel[1], Opacity[0.6]}], 
+    InterpretationBox[
+     TagBox[
+      GraphicsComplex3DBox[
+       NCache[{{-(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 0, Root[
+          1 - 20 #^2 + 80 #^4& , 3, 0]}, {(1 + 2 5^Rational[-1, 2])^
+          Rational[1, 2], 0, Root[1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+          Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+          Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[5, 8] + 
+           Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 3, 0]}, {(Rational[5, 8] + 
+           Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+          Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+           Rational[11, 8] 5^Rational[-1, 2])^Rational[1, 2]}, {
+         Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[-1, 2], Root[1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+         Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], Rational[
+          1, 2], Root[
+          1 - 100 #^2 + 80 #^4& , 1, 0]}, {(Rational[1, 4] + 
+           Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[-1, 2], (Rational[5, 8] + 
+           Rational[11, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[1, 4] + 
+           Rational[1, 2] 5^Rational[-1, 2])^Rational[1, 2], Rational[
+          1, 2], (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {(Rational[1, 10] (5 + 5^Rational[1, 2]))^
+          Rational[1, 2], 0, Root[1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+         Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+         Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+          Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+         Root[1 - 5 #^2 + 5 #^4& , 1, 0], 
+          0, (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+          Rational[1, 2]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 3, 0], 
+          Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+          1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+         Root[1 - 20 #^2 + 80 #^4& , 3, 0], 
+          Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+          1 - 100 #^2 + 80 #^4& , 1, 0]}, {(Rational[1, 8] + 
+           Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 2, 0]}, {(Rational[1, 8] + 
+           Rational[1, 8] 5^Rational[-1, 2])^Rational[1, 2], 
+          Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+          1 - 20 #^2 + 80 #^4& , 2, 0]}}, {{-1.3763819204711736`, 0, 
+          0.2628655560595668}, {
+         1.3763819204711736`, 
+          0, -0.2628655560595668}, {-0.42532540417601994`, \
+-1.3090169943749475`, 0.2628655560595668}, {-0.42532540417601994`, 
+         1.3090169943749475`, 0.2628655560595668}, {
+         1.1135163644116066`, -0.8090169943749475, 0.2628655560595668}, {
+         1.1135163644116066`, 0.8090169943749475, 
+         0.2628655560595668}, {-0.2628655560595668, -0.8090169943749475, 
+         1.1135163644116066`}, {-0.2628655560595668, 0.8090169943749475, 
+         1.1135163644116066`}, {-0.6881909602355868, -0.5, \
+-1.1135163644116068`}, {-0.6881909602355868, 0.5, -1.1135163644116068`}, {
+         0.6881909602355868, -0.5, 1.1135163644116066`}, {0.6881909602355868, 
+         0.5, 1.1135163644116066`}, {
+         0.85065080835204, 
+          0, -1.1135163644116068`}, {-1.1135163644116068`, \
+-0.8090169943749475, -0.2628655560595668}, {-1.1135163644116068`, 
+         0.8090169943749475, -0.2628655560595668}, {-0.8506508083520399, 0, 
+          1.1135163644116066`}, {
+         0.2628655560595668, -0.8090169943749475, -1.1135163644116068`}, {
+         0.2628655560595668, 0.8090169943749475, -1.1135163644116068`}, {
+         0.42532540417601994`, -1.3090169943749475`, -0.2628655560595668}, {
+         0.42532540417601994`, 1.3090169943749475`, -0.2628655560595668}}], 
+       Polygon3DBox[{{15, 10, 9, 14, 1}, {2, 6, 12, 11, 5}, {5, 11, 7, 3, 
+        19}, {11, 12, 8, 16, 7}, {12, 6, 20, 4, 8}, {6, 2, 13, 18, 20}, {2, 5,
+         19, 17, 13}, {4, 20, 18, 10, 15}, {18, 13, 17, 9, 10}, {17, 19, 3, 
+        14, 9}, {3, 7, 16, 1, 14}, {16, 8, 4, 15, 1}}]],
+      "Polyhedron"],
+     Dodecahedron[]]}, {
+    SphereBox[
+     NCache[{-(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 0, Root[
+       1 - 20 #^2 + 80 #^4& , 3, 0]}, {-1.3763819204711736`, 0, 
+       0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{(1 + 2 5^Rational[-1, 2])^Rational[1, 2], 0, Root[
+       1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+      1.3763819204711736`, 0, -0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+       Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 3, 
+        0]}, {-0.42532540417601994`, -1.3090169943749475`, 
+      0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 1, 0], 
+       Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 3, 0]}, {-0.42532540417601994`, 
+      1.3090169943749475`, 0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{(Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2], Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 3, 0]}, {
+      1.1135163644116066`, -0.8090169943749475, 0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{(Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2], Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 3, 0]}, {1.1135163644116066`, 
+      0.8090169943749475, 0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+       Rational[1, 4] (-1 - 5^Rational[1, 2]), (Rational[5, 8] + 
+        Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2]}, {-0.2628655560595668, -0.8090169943749475, 
+      1.1135163644116066`}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 2, 0], 
+       Rational[1, 4] (1 + 5^Rational[1, 2]), (Rational[5, 8] + 
+        Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2]}, {-0.2628655560595668, 0.8090169943749475, 
+      1.1135163644116066`}], 0.07], 
+    SphereBox[
+     NCache[{Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+       Rational[-1, 2], Root[
+       1 - 100 #^2 + 80 #^4& , 1, 
+        0]}, {-0.6881909602355868, -0.5, -1.1135163644116068`}], 0.07], 
+    SphereBox[
+     NCache[{Rational[-1, 2] (1 + 2 5^Rational[-1, 2])^Rational[1, 2], 
+       Rational[1, 2], Root[
+       1 - 100 #^2 + 80 #^4& , 1, 0]}, {-0.6881909602355868, 
+      0.5, -1.1135163644116068`}], 0.07], 
+    SphereBox[
+     NCache[{(Rational[1, 4] + Rational[1, 2] 5^Rational[-1, 2])^
+       Rational[1, 2], 
+       Rational[-1, 2], (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2]}, {0.6881909602355868, -0.5, 1.1135163644116066`}], 
+     0.07], SphereBox[
+     NCache[{(Rational[1, 4] + Rational[1, 2] 5^Rational[-1, 2])^
+       Rational[1, 2], Rational[
+       1, 2], (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2]}, {0.6881909602355868, 0.5, 1.1135163644116066`}], 
+     0.07], SphereBox[
+     NCache[{(Rational[1, 10] (5 + 5^Rational[1, 2]))^Rational[1, 2], 0, Root[
+       1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+      0.85065080835204, 0, -1.1135163644116068`}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+       Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 2, 
+        0]}, {-1.1135163644116068`, -0.8090169943749475, \
+-0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 100 #^2 + 80 #^4& , 1, 0], 
+       Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 2, 0]}, {-1.1135163644116068`, 
+      0.8090169943749475, -0.2628655560595668}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 5 #^2 + 5 #^4& , 1, 0], 
+       0, (Rational[5, 8] + Rational[11, 8] 5^Rational[-1, 2])^
+       Rational[1, 2]}, {-0.8506508083520399, 0, 1.1135163644116066`}], 0.07],
+     SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 3, 0], 
+       Rational[1, 4] (-1 - 5^Rational[1, 2]), Root[
+       1 - 100 #^2 + 80 #^4& , 1, 0]}, {
+      0.2628655560595668, -0.8090169943749475, -1.1135163644116068`}], 0.07], 
+    SphereBox[
+     NCache[{Root[1 - 20 #^2 + 80 #^4& , 3, 0], 
+       Rational[1, 4] (1 + 5^Rational[1, 2]), Root[
+       1 - 100 #^2 + 80 #^4& , 1, 0]}, {0.2628655560595668, 
+      0.8090169943749475, -1.1135163644116068`}], 0.07], 
+    SphereBox[
+     NCache[{(Rational[1, 8] + Rational[1, 8] 5^Rational[-1, 2])^
+       Rational[1, 2], Rational[1, 4] (-3 - 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 2, 0]}, {
+      0.42532540417601994`, -1.3090169943749475`, -0.2628655560595668}], 
+     0.07], SphereBox[
+     NCache[{(Rational[1, 8] + Rational[1, 8] 5^Rational[-1, 2])^
+       Rational[1, 2], Rational[1, 4] (3 + 5^Rational[1, 2]), Root[
+       1 - 20 #^2 + 80 #^4& , 2, 0]}, {0.42532540417601994`, 
+      1.3090169943749475`, -0.2628655560595668}], 0.07]}},
+  Boxed->False,
+  ImageSize->{360.72983172719125`, 355.564459171322},
+  ImageSizeRaw->Automatic,
+  Lighting->"Accent",
+  ViewPoint->{-2.3625242552692973`, 1.6767679757205132`, 1.7484073606749608`},
+  
+  ViewVertical->{-0.4556251991761966, 
+   0.8224647275437129, -0.3405252557771558}]], "Output",
+ CellChangeTimes->{
+  3.907834127588092*^9, {3.9078341945340767`*^9, 3.907834199973482*^9}, {
+   3.9078342340132227`*^9, 3.907834284506365*^9}, {3.907834399982358*^9, 
+   3.907834425591296*^9}},
+ CellLabel->
+  "Out[189]=",ExpressionUUID->"ff3936a0-5f13-4454-917b-5b2c763502af"]
+}, Open  ]]
+},
+WindowSize->{606., 659.25},
+WindowMargins->{{Automatic, 342.75}, {57.75, Automatic}},
+FrontEndVersion->"12.3 for Linux x86 (64-bit) (July 9, 2021)",
+StyleDefinitions->"Default.nb",
+ExpressionUUID->"72441ff5-f4ac-4707-9e17-d2bc0413c100"
+]
+(* End of Notebook Content *)
+
+(* Internal cache information *)
+(*CellTagsOutline
+CellTagsIndex->{}
+*)
+(*CellTagsIndex
+CellTagsIndex->{}
+*)
+(*NotebookFileOutline
+Notebook[{
+Cell[558, 20, 177, 3, 35, "Text",ExpressionUUID->"518053ec-cf74-4015-941f-20a7e05ef09f"],
+Cell[CellGroupData[{
+Cell[760, 27, 2031, 48, 174, "Input",ExpressionUUID->"e5ce3621-ce84-499e-8c90-4cfbeb986c31"],
+Cell[2794, 77, 10309, 202, 372, "Output",ExpressionUUID->"ff3936a0-5f13-4454-917b-5b2c763502af"]
+}, Open  ]]
+}
+]
+*)
+

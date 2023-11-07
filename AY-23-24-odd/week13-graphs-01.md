@@ -7,6 +7,8 @@ Motivation:
 - [(Bakhshandeh et al., 2011) - Degrees of Separation in Social Networks](https://ojs.aaai.org/index.php/SOCS/article/view/18200/17991)
 - [Indonesia submarine cable map](./figures/indonesia-submarine-cable-map.png)
 
+Course activities:
+
 ## Graphs and graph models
 
 **Definition 1**  
@@ -14,6 +16,8 @@ Motivation:
 > (or _nodes_) and $E$, a set of _edges_.  
 > Each edge has either one or two vertices associated with it, called
 > _endpoints_. An edge is said to _connect_ its endpoints.
+
+**Example**
 
 <br>
 
@@ -24,32 +28,80 @@ Motivation:
 > The directed edge associated with the ordered pair $(u, v)$ is said  
 > to _start_ at $u$ and _end_ at $v$.
 
+**Example**
+
 
 **TABLE 1** Graph terminology
-| Type | Edges | Multiple Edges Allowed? | Loops Allowed? |
-|------|-------|-------------------------|----------------|
-| Simple graph | Undirected | No  | No  |
-| Multigraph   | Undirected | Yes | No  |
-| Pseudograph  | Undirected | Yes | Yes |
-| Simple directed graph | Directed | No  | No  |
-| Directed multigraph   | Directed | Yes | Yes |
-| Mixed graph           | Directed and undirected | Yes | Yes |
+<table>
+  <tr>
+    <td> <b>Type
+    <td> <b>Edges
+    <td> <b>Multiple Edges Allowed?
+    <td> <b>Loops Allowed?
+    <td> <b>Example
+  <tr>
+    <td> Simple graph
+    <td> Undirected 
+    <td> No
+    <td> No
+    <td> <img src="./figures/graphs-simple-graph.drawio.png" width=100>
+  <tr>
+    <td> Multigraph
+    <td> Undirected
+    <td> Yes
+    <td> No
+    <td> <img src="./figures/graphs-multi-graph.drawio.png" width=100>
+  <tr>
+    <td> Pseudograph
+    <td> Undirected 
+    <td> Yes
+    <td> Yes
+    <td> <img src="./figures/graphs-pseudograph.drawio.png" width=100>
+  <tr>
+    <td> Simple directed graph
+    <td> Directed
+    <td> No
+    <td> No
+    <td> <img src="./figures/graphs-simple-directed-graph.drawio.png" width=100>
+  <tr>
+    <td> Directed multigraph
+    <td> Directed
+    <td> Yes
+    <td> Yes
+    <td> <img src="./figures/graphs-directed-multi-graph.drawio.png" width=100>
+  <td>
+    <td> Mixed graph
+    <td> Directed and undirected
+    <td> Yes
+    <td> Yes
+    <td> <img src="./figures/graphs-mixedi-graph.drawio.png" width=100>
+</table>
 
 
 ## Graphs terminology and special types of graphs
 
 ### Basis terminology
 
-**Definition 1**
+**Definition 1**   
+> Two vertices $u$ and $v$ in an undirected graph $G$ are called _adjacent_ 
+> (or _neighbours_) in $G$ if $u$ and $v$ are endpoints of an edge $e$ of
+> $G$. Such an edge $e$ is called _incident with_ the vertices $u$ and $v$  
+> and $v$, and $e$ said to _connect_ $u$ and $v$.
 
-**Definition 2**
+**Definition 2** (skipped)
 
 **Definition 3**
+> The _degree of a vertex in an undirected graph_ is the number of
+> edges incident with it, except that a loop at a vertex contributes twice  
+> to the degree of that vertex. The degree of the vertex $v$ is denoted
+> by $\deg(v)$
 
-**Definition 4**
+**Definition 4** (skipped)
+
+**Example** (For all definitions above)    
 
 
-### Some special simple graphs
+### Some special simple graphs (optional)
 
 - Complete graphs
 - Cycles
@@ -59,7 +111,23 @@ Motivation:
 ## Connectivity
 
 **Definition 1** (for undirected graph)
-> 
+> Let $n$ be a nonnegative integer and $G$ an undirected graph.
+> A _path of length_ $n$ from $u$ to $v$ in $G$ is a sequence of $n$ 
+> edges $e_1, \ldots, e_n$ of $G$ for which there exists a sequence
+> $x_0 = u, x_1, x_2, \ldots, x_{n-1}, x_n = v$ of vertices such that 
+> $e_i$ has, for $i = 1, \ldots, n$, the endpoints $x_{i-1}$ 
+> and $x_i$.   
+> When the graph is simple, we denote this path by its vertex sequence
+> $x_0, x_1, \ldots, x_n$ (because listing these vertices uniquely
+> determines the path).   
+> The path is a _circuit_ if it begins and ends
+> at the same vertex, that is, if $u = v$, and has length greater than 
+> zero.    
+> The path or circuit is said to _pass through_ the vertices
+> $x_1, x_2, \ldots, x_{n-1}$ or _traverse_ the edges 
+> $e_1, e_2, \ldots, e_n$.    
+> A path or circuit is _simple_ if it does not contain the same
+> edge more than once.
 
 **Example 1**
 
@@ -85,6 +153,10 @@ Motivation:
 
 **Example 1**
 
+**Theorem 2**
+> A connected  multigraph has an Euler path but not an Euler circuit if and 
+> only if it has exactly two vertices of odd degree.
+
 
 **Definition 2**   
 > A simple path in a graph $G$ that passes through every vertex exactly  
@@ -95,3 +167,33 @@ Motivation:
 > $x_0, x_1, \ldots, x_{n-1}, x_n$ is a Hamilton path.
 
 **Example 5**
+
+
+
+
+## Past course activities (2023/Nov/01)
+- Start by asking is it possible to solve "The seven bridges of Konigsberg
+- If a student can give an answer to the problem state the answer and 
+  show that we will have to formulate this into more rigorous formula (theorem)
+
+- A student answered that it is not possible to solve "The seven bridges of 
+  Konigsberg" when the number of "landmarks" is odd and the number of 
+  bridges is even. [This is not a correct answer, but a good try]
+- A student came up with the counterexample to the answer of first student.
+  It is possible to have a path (we will show later that it is an Euler path)
+  that will pass all the bridges (9 bridges, the student added 2 more bridges).
+
+  <img src="./figures/the-7-bridges-of-Königsberg.drawio.png" width=600>
+
+- Show Icosian puzzle (draw on the whiteboard)
+
+- Start showing "Degrees of Separation in Social Networks"
+- Start showing "Submarine cable map"
+
+- Start the some graph definitions
+
+
+
+
+Cantika Ade 10231024  (proof not strong enough)     
+Muchlis  10231054  (counterexample)
