@@ -7,7 +7,6 @@ Motivation:
 - [(Bakhshandeh et al., 2011) - Degrees of Separation in Social Networks](https://ojs.aaai.org/index.php/SOCS/article/view/18200/17991)
 - [Indonesia submarine cable map](./figures/indonesia-submarine-cable-map.png)
 
-Course activities:
 
 ## Graphs and graph models
 
@@ -69,7 +68,7 @@ Course activities:
     <td> Yes
     <td> Yes
     <td> <img src="./figures/graphs-directed-multi-graph.drawio.png" width=100>
-  <td>
+  <tr>
     <td> Mixed graph
     <td> Directed and undirected
     <td> Yes
@@ -85,14 +84,14 @@ Course activities:
 **Definition 1**   
 > Two vertices $u$ and $v$ in an undirected graph $G$ are called _adjacent_ 
 > (or _neighbours_) in $G$ if $u$ and $v$ are endpoints of an edge $e$ of
-> $G$. Such an edge $e$ is called _incident with_ the vertices $u$ and $v$  
+> $G$. Such an edge $e$ is called _incident with_ the vertices $u$ and $v$ 
 > and $v$, and $e$ said to _connect_ $u$ and $v$.
 
 **Definition 2** (skipped)
 
 **Definition 3**
 > The _degree of a vertex in an undirected graph_ is the number of
-> edges incident with it, except that a loop at a vertex contributes twice  
+> edges incident with it, except that a loop at a vertex contributes twice 
 > to the degree of that vertex. The degree of the vertex $v$ is denoted
 > by $\deg(v)$
 
@@ -111,7 +110,7 @@ Course activities:
 ## Connectivity
 
 **Definition 1** (for undirected graph)
-> Let $n$ be a nonnegative integer and $G$ an undirected graph.
+> Let $n$ be a nonnegative integer and $G$ an undirected graph.   
 > A _path of length_ $n$ from $u$ to $v$ in $G$ is a sequence of $n$ 
 > edges $e_1, \ldots, e_n$ of $G$ for which there exists a sequence
 > $x_0 = u, x_1, x_2, \ldots, x_{n-1}, x_n = v$ of vertices such that 
@@ -134,8 +133,8 @@ Course activities:
 **Definition 2** (for directed graph)   
 > Let $n$ be a nonnegative integer and $G$ a directed graph.  
 > A _path_ of length $n$ from $u$ to $v$ in $G$ is a sequence of edges
-> $e_1, e_2, \ldots, e_n$ of $G such that $e_1$ is associated with
-> $(x_0, x_1), $e_2$ is associated with $(x_1, x_2)$, and so on, with
+> $e_1, e_2, \ldots, e_n$ of $G$ such that $e_1$ is associated with
+> $(x_0, x_1)$, $e_2$ is associated with $(x_1, x_2)$, and so on, with
 > $e_n$ associated $(x_{n-1}, x_n)$, where $x_0 = u$ and $x_n = v$.  
 > When there are no multiple edges in the directed graph, this path is  
 > denoted by its vertex sequence $x_0, x_1, x_2, \ldots, x_n$.  
