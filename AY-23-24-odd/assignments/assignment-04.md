@@ -20,13 +20,31 @@ dan $V_2$ yang mana tidak ada busur (_edge_) sama sekali yang menghubungkan
 dua simpul di dalam satu himpunan yang sama.
 
 Sebagai contoh:
-| Graf                                                   | Penjelasan |
-|--------------------------------------------------------|------------|
-| ![bipartite-ex-01.png](../figures/bipartite-ex-01.png) | **Bipartite**, karena kita dapat memisahkan simpul-simpulnya menjadi dua himpunan $V_1 = \{v_1, v_3, v_5\}$ dan $V_2 = \{v_2, v_4, v_6\}$ yang mana dimasing-masing himpunan $V_1$  dan $V_2$ tidak ada busur penghubung dan setiap anggota $V_1$ dan $V_2$ memiliki setidaknya satu busur penghubung. |
-| ![bipartite-ex-02.png](../figures/bipartite-ex-02.png) | Bukan bipartite, karena bagaimanapun kita memisahkan simpul-simpulnya, selalu ada penghubung antara simpul dalam satu himpunan yang sama. Misal kita buat $V_1 = \{v_1\}$ dan $V_2 = \{v_2, v_3\}$. Maka sangatlah jelas $v_2$ dan $v_3$ masih terhubung oleh busur dan tidak sesuai dengan definisi bipartite. |
-
-
-
+<table>
+  <tr>
+    <td><b>Graf</b></td>
+    <td><b>Penjelasan</b></td>
+  </tr>
+  <tr>
+    <td><img src="../figures/bipartite-ex-01.png" width=800></td>
+    <td> <b>Bipartite</b> karena kita dapat memisahkan simpul-simpulnya menjadi dua himpunan 
+    <i>V</i><sub>1</sub> = {
+      <i>v</i><sub>1</sub>, 
+      <i>v</i><sub>3</sub>, 
+      <i>v</i><sub>5</sub> } dan 
+    <i>V</i><sub>2</sub> = {
+      <i>v</i><sub>2</sub>, 
+      <i>v</i><sub>4</sub>, 
+      <i>v</i><sub>6</sub> } yang mana dimasing-masing himpunan 
+    <i>V</i></sub>1</sub>  dan <i>V</i><sub>2</sub> tidak ada busur penghubung dan setiap anggota <i>V</i><sub>1</sub> dan <i>V</i><sub>2</sub> memiliki setidaknya satu busur penghubung.</td>
+  </tr>
+  <tr>
+    <td><img src="../figures/bipartite-ex-02.png" width=800></td> 
+    <td>Bukan bipartite, karena bagaimanapun kita memisahkan simpul-simpulnya, selalu ada penghubung antara simpul dalam satu himpunan yang sama. Misal kita buat <i>V</i><sub>1</sub> = { <i>v</i><sub>1</sub> } dan 
+    <i>V</i><sub>2</sub> = { <i>v</i><sub>2</sub>, <i>v</i><sub>3</sub> }. 
+    Maka sangatlah jelas <i>v</i><sub>2</sub> dan <i>v</i><sub>3</sub> masih terhubung oleh busur dan tidak sesuai dengan definisi bipartite.</td>
+  </tr>
+</table>
 Dari penjelasan di atas tentukan dan jelaskan apakah graf dibawah ini bipartite atau bukan:
 
 1. <img src="../figures/bipartite-Q1.png" width=200 style="vertical-align:top">
