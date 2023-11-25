@@ -20,10 +20,10 @@ dan $V_2$ yang mana tidak ada busur (_edge_) sama sekali yang menghubungkan
 dua simpul di dalam satu himpunan yang sama.
 
 Sebagai contoh:
-| Graf | Penjelasan |
-|------|------------|
-|![bipartite-ex-01.png](../figures/bipartite-ex-01.png) | **Bipartite**, karena kita dapat memisahkan simpul-simpulnya menjadi dua himpunan $V_1 = \{v_1, v_3, v_5\}$ dan $V_2 = \{v_2, v_4, v_6\}$ yang mana dimasing-masing himpunan $V_1$  dan $V_2$ tidak ada busur penghubung dan setiap anggota $V_1$ dan $V_2$ memiliki setidaknya satu busur penghubung. |
-|![bipartite-ex-02.png](../figures/bipartite-ex-02.png) | Bukan bipartite, karena bagaimanapun kita memisahkan simpul-simpulnya, selalu ada penghubung antara simpul dalam satu himpunan yang sama. Misal kita buat $V_1 = \{v_1\}$ dan $V_2 = \{v_2, v_3\}$. Maka sangatlah jelas $v_2$ dan $v_3$ masih terhubung oleh busur dan tidak sesuai dengan definisi bipartite. |
+| Graf                                                   | Penjelasan |
+|--------------------------------------------------------|------------|
+| ![bipartite-ex-01.png](../figures/bipartite-ex-01.png) | **Bipartite**, karena kita dapat memisahkan simpul-simpulnya menjadi dua himpunan $V_1 = \{v_1, v_3, v_5\}$ dan $V_2 = \{v_2, v_4, v_6\}$ yang mana dimasing-masing himpunan $V_1$  dan $V_2$ tidak ada busur penghubung dan setiap anggota $V_1$ dan $V_2$ memiliki setidaknya satu busur penghubung. |
+| ![bipartite-ex-02.png](../figures/bipartite-ex-02.png) | Bukan bipartite, karena bagaimanapun kita memisahkan simpul-simpulnya, selalu ada penghubung antara simpul dalam satu himpunan yang sama. Misal kita buat $V_1 = \{v_1\}$ dan $V_2 = \{v_2, v_3\}$. Maka sangatlah jelas $v_2$ dan $v_3$ masih terhubung oleh busur dan tidak sesuai dengan definisi bipartite. |
 
 
 
