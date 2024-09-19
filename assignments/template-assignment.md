@@ -1,31 +1,22 @@
-> Berikut adalah tempate soal menggunakan contoh soal
-> dan jawaban dari teki-teko logika di pertemuan minggu
-> ke 2. Silahkan format (bukan jawaban) mengikuti contoh 
-> pengerjaaan soal berikut.
-> Pada bagian akhir disertakan juga panduan pengetikan
-> dan beberapa *links* yang sekiranya berguna
-> untuk mengetik beberapa persamaan.
+> Berikut adalah tempate soal menggunakan contoh soal  dan jawaban dari 
+> teki-teki logika di pertemuan minggu ke 3. Silahkan format (bukan jawaban) 
+> mengikuti contoh pengerjaaan soal berikut. Pada bagian akhir disertakan juga 
+> panduan pengetikan dan beberapa *links* yang sekiranya berguna untuk mengetik 
+> beberapa persamaan.
 
 # Template Assignment 01
 
-**Anggota kelompok**
-- Nama Mahasiswa 1 (NIM) (no soal yang dikerjakana)
-- Nama Mahasiswa 2 (NIM) (1)
-- Nama Mahasiswa 3 (NIM) (2)
-- dst.
-
+Nama Lengkap (NIM) 
 
 ## Soal 1
 
-Disebuah pulau fiksi terdapat dua macam penghuni yaitu,
-pemuka agama dan pencuri. Pemuka agama selalu berkata jujur
-sedangkan pencuri selalu berkata bohong. Kita dihadapkan
-dengan dua orang $A$ dan $B$ di pulau tersebut dan kita
-tidak tahu apakah $A$ pemuka agama atau pencuri demikian
-dengan $B$. Kita hanya memperoleh informasi dari dua 
-pernyataan berikut:
-- $A$ berkata, \"$`B`$ adalah pemuka agama\".
-- $B$ berkata, \"Kami berdua memiliki dua peran berbeda\".
+Disebuah pulau fiksi terdapat dua macam penghuni yaitu, pemuka agama dan 
+pencuri. Pemuka agama selalu berkata jujur sedangkan pencuri selalu berkata 
+bohong. Kita dihadapkan dengan dua orang $A$ dan $B$ di pulau tersebut dan kita
+tidak tahu apakah $A$ pemuka agama atau pencuri demikian dengan $B$. 
+Kita hanya memperoleh informasi dari dua pernyataan berikut:
+- $A$ berkata, "$B$ adalah pemuka agama".
+- $B$ berkata, "Kami berdua memiliki dua peran berbeda".
 
 Tentukan peran (pemuka agama atau pencuri) dari 
 kedua orang $A$ dan $B$.
@@ -33,13 +24,13 @@ kedua orang $A$ dan $B$.
 ### Jawaban
 
 Misalkan dua proposisi $p$ dan $q$ sebagai berikut:
-- $`p = `$ \"$`A`$ adalah pemuka agama\"
-- $`q = `$ \"$`B`$ adalah pemuka agama\"
+- $p = A$ adalah pemuka agama
+- $q = B$ adalah pemuka agama
 
 Dan perkataan $A$ dan $B$ dapat dinyatakan dalam bentuk 
 proposisi 
-- perkataan A: \"$`B`$ adalah pemuka agama\" $` = q`$
-- perkataan B: "Kami berdua memiliki dua peran berbeda"    
+- perkataan $A$: "$B$ adalah pemuka agama" $= q$
+- perkataan $B$: "Kami berdua memiliki dua peran berbeda"    
   = $(p \wedge \neg q) \vee (\neg p \wedge q)$
 
 Bentuk proposisi perkataan B merupakan dua pasangan 
@@ -48,7 +39,7 @@ $$(A \text{ adalah pemuka agama } \textbf{dan } B \text{ adalah pencuri}) \textb
 
 Kita memiliki dua kemungkinan bahwa $p$ bernilai benar 
 ($A$ adalah pemuka agama) atau salah ($A$ adalah pencuri). 
-Kita akan uji masing-masing kemungkinan tersebut apakah
+Kita akan uji masing-masing kemungkinan tersebut apakah akan
 terjadi kontradiksi atau konsisten dengan pernyataan 
 yang diberikan dan perkataan yang dikatakan oleh $A$ dan $B$.
 
@@ -56,10 +47,11 @@ Tanda $\Rightarrow$ menunjukkan konsekuensi ekuivalen
 
 **Kemungkinan pertama**: $\boxed{p \text{ benar}}$  
 $\Rightarrow$ $A$ adalah pemuka agama    
-$\Rightarrow$ perkataan $A$ benar 
+  $\Rightarrow$ perkataan $A$ benar 
   $\Rightarrow$ $\boxed{q \text{ benar}}$    
-$\Rightarrow$ perkataan $B$ benar 
-  $\Rightarrow$ $((p \wedge \neg q) \vee (\neg p \wedge q))$ benar
+  $\Rightarrow$ $B$ adalah pemuka agama  
+  $\Rightarrow$ perkataan $B$ benar 
+  $\Rightarrow$ $\boxed{(p \wedge \neg q) \vee (\neg p \wedge q) \text{ benar}}$
 
 Di lain sisi, karena kita memiliki $p$ benar ($\textbf{T}$) dan 
 $q$ benar ($\textbf{F}$) (lihat proposisi yang diberi kotak), 
@@ -81,11 +73,11 @@ Sehingga kemungkinan pertama bahwa $p$ adalah benar tidak tepat.
 
 **Kemungkinan kedua**: $\boxed{p \text{ salah}}$   
 $\Rightarrow$ $A$ adalah pencuri    
-$\Rightarrow$ perkataan $A$ salah
+  $\Rightarrow$ perkataan $A$ salah
   $\Rightarrow$ $\boxed{q \text{ salah}}$     
-$\Rightarrow$ $B$ adalah pencuri    
-$\Rightarrow$ perkataan $B$ salah
-  $\Rightarrow$ $(p \wedge \neg q) \vee (\neg p \wedge q)$ salah
+  $\Rightarrow$ $B$ adalah pencuri    
+  $\Rightarrow$ perkataan $B$ salah
+  $\Rightarrow$ $\boxed{(p \wedge \neg q) \vee (\neg p \wedge q) \text{ salah}}$
 
 Di lain sisi, karena kita memiliki $p$ salah ($\textbf{F}$) dan
 $q$ salah ($\textbf{F}$) (lihat proposisi yang diberi kotak),
@@ -146,7 +138,7 @@ Contoh penyisipan gamabr menggunakan perintah HTML `<img>`
 <img src="../figures/pexels-photo-41126.jpeg" width=300>
 
 
-Contoh tabel
+Contoh tabel kebenaran
 |$p$ | $q$ | $p \wedge r$  |
 |--|---|----|
 |T | T | T  | 

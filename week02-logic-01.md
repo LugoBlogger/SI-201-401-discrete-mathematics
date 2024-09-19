@@ -11,7 +11,7 @@
   - [optional] Exclusive or
 - Conditional statements (see 2022-09-12-logic.xopp)
   - An example that reflects truth tables of conditional
-    statements
+    statements (obligation)
 - Some variations of conditional statements
   - converse
   - contrapositive

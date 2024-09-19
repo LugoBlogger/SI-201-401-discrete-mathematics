@@ -1,12 +1,10 @@
 # Assignment 01
 
-**Group members**
-- FullName1 (StudentID) (Problem #)
-- FullName2 (StudentID) (Problem #)
-- FullName3 (StudentID) (Problem #)
-- etc.
+FullName (StudentID) 
 
-## Problem 1
+Silahkan memilih dua problem berikut untuk diselesaikan.
+
+## Problem 1 (40 poin)
 Manakah pernyataan berikut yang merupakan proposisi?
 Berikan juga alasannya
 1. Jangan keluar dari ruangan kelas!
@@ -21,25 +19,33 @@ di sub-poin (4) di [Modular Arithmetic](https://en.wikipedia.org/wiki/Modular_ar
 
 ### Answer
 
+ 
+## Problem 2 (50 poin)
+Secara lengkap ada 16 logika operator yang dapat digunakan untuk dua buah
+proposisi $A$ dan $B$. Di pertemuan minggu ke-3 kita telah membahas
+- konjungsi ($\operatorname{AND}$)
+- disjungsi ($\operatorname{OR}$)
+- eksklusif OR ($\operatorname{XOR}$)
+- pernyataan bersyarat / implikasi ($\rightarrow$)
+- bi-implikasi ($\leftrightarrow$)
 
-## Problem 2
-Di dalam kuliah disinggung terkait operator
-logika disjungsi ekslusif (_exclusive or_), yang disimbolkan $\oplus$.
-Susunlah tabel kebenarannya dan berikan dua contoh
-proposisi yang mewakili disjungsi ekslusif tersebut.
+Carilah sisa 11 operator logika yang lain dan berikan tabel kebenarannya. Mengapa ada beberapa operator logika yang tidak 
+populer digunakan?
+
 
 
 ### Answer
 
-## Problem 3
+## Problem 3 (30 poin)
 Susunlah tabel kebenaran untuk proposisi majemuk berikut:
 1. $(\neg p \wedge q) \rightarrow (\neg \neg q \rightarrow p)$
 2. $((p \leftrightarrow \neg q) \oplus r) \vee r$
 
+Petunjuk: $\oplus$ adalah operator logika untuk XOR.
 
 ### Answer
 
-## Problem 4
+## Problem 4 (40 poin)
 Tentukan konvers, kontrapositive, dan invers dari
 pernyataan kondisional berikut
 1. Jika hari ini hujan, maka saya tidak akan datang ke
@@ -50,7 +56,7 @@ pernyataan kondisional berikut
 
 ### Answer 
 
-## Problem 5
+## Problem 5 (50 poin)
 Sebagai imbalan karena menyelamatkan putri seorang
 raja, seorang pemuda diberi kesempatan untuk
 memperoleh sejumlah koin emas yang tersimpan
