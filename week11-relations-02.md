@@ -163,5 +163,3 @@ If we assume that all edges are pointed "upward", we do not have to show the dir
 
 
 
-
-Eka (10231036)

@@ -30,8 +30,3 @@ Huffman coding
 - Start with Tic-Tac-Toe game and the strategy to win
 - Play Ultimate tic-tac-toe
 - Explain definitions of tree and its properties.
-
-Students who answer question in the class
-- Daffa (10231008) - Answering first technique to win Tic-Tac-Toe
-- Ariel (10231058) - We need to fill the center of Tic-Tac-Toe
-- Novri (10231066) - Because he wins over me.

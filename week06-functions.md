@@ -75,13 +75,13 @@
 - Definition of inverse function
 - Definition of composition of two functions $f$ and $g$
 
-## [not yet] The graphs of functions
+## The graphs of functions
 
 Let $f$ be a function from the set $A$ to the set $B$. The _graph_ of
 the function $f$ is the set of ordered pairs 
 $\{(a, b) a \in A \text{ and } f(a) = b\}$.
 
-## [not yet] Some important functions
+## Some important functions
 - Floor function
 - Factorial functions
   

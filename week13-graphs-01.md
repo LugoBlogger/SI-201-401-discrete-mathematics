@@ -193,6 +193,3 @@ Motivation:
 
 
 
-
-Cantika Ade 10231024  (proof not strong enough)     
-Muchlis  10231054  (counterexample)

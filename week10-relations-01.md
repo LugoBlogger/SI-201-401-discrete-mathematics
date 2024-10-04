@@ -197,5 +197,3 @@ SELECT lecturer, c_time
 
 ### (optional) Association rules from data mining
 
-
-Student who solve the problem: Radid (10231076)
