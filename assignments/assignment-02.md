@@ -1,6 +1,6 @@
 # Assignment 02
 
-FullName1 (StudentID) 
+FullName (StudentID) 
 
 Silahkan memilih dua problem berikut untuk diselesaikan.
 

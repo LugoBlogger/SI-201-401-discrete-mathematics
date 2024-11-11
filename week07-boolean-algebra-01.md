@@ -78,7 +78,7 @@ Before we discuss about we define the following definitions:
   | 0     | 0     | 1                | 0  |
 
   Now we are ready to define the Boolean expression.  
-  A **Boolea expression** in the variables $x_1, x_2, \ldots, x_n$
+  A **Boolean expression** in the variables $x_1, x_2, \ldots, x_n$
   are defined recursively:
   1. $0, 1, x_1, x_2, \ldots, x_n$ are Boolean expression.
   2. if $E_1$ and $E_2$ are Boolean expressions then $\overline{E}_1$, 
@@ -365,7 +365,7 @@ $$
     \text{product-of-sum expansion} \\
   \text{(disjunctive normal form)} \xleftrightarrow{\text{dual}}
     \text{(conjunctive normal form)}
-$$k
+$$
 
 ### Functional completeness 
 The set of operators $\{+, \cdot, \overline{\phantom{x}}\}$ is

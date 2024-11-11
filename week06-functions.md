@@ -46,7 +46,7 @@
   - Round-down function for a decimal
 
 - Two function are **equal** when they have the same domain, have the same
-  codomain, and map each element of their common domain to the same element in their common domain.
+  codomain, and map each element of their common domain to the same element in their common co-domain.
 
 
 - Function addition
