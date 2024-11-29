@@ -65,11 +65,11 @@ width of 80 characters.
 ## Add figures
 Using markdown format (the figure is maximized to the width of the image)  
 `![fugaku](./img-resources/fugaku.png)`  
-![fugaku](./img-resources/fugaku.png)
+![fugaku](./figures/fugaku.png)
 
 To control the width of the image, you can use HTML tag  
 `<img src="./img-resources/fugaku.png" width=200>`   
-<img src="./img-resources/fugaku.png" width=200>
+<img src="./figures/fugaku.png" width=200>
 
 Sometimes, figure location is outside the markdown file. You 
 can use `../` to move out from the folder where your
