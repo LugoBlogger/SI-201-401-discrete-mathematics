@@ -50,7 +50,7 @@ $G(x_1, x_2, x_3) = (\overline{x_3} + (\overline{x_1}\,\overline{x_2}))
 
 ## Problem 4 (50 poin)
 
-1. Di dalam pertemukan tentang logika, kita belajar mengenai implikasi, 
+1. Di dalam pertemuan tentang logika, kita belajar mengenai implikasi, 
    invers, konvers, dan kontrapositive. Carilah bentuk fungsi Boolean yang 
    mewakili ke-empat operator logika tersebut.
 

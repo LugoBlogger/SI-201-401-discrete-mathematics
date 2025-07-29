@@ -30,7 +30,7 @@ operasi NOR (dilambangkan $\downarrow$) yang didefinisikan dengan tabel nilai Bo
 | 1   | 1   | 0                |
 
 Hint: Pertama pahami definisi operasi NOR yaitu kaitannya dengan penjumlahan
-Boolean, perkalian Boolean dan komplemen variable Boolena. Kemudian 
+Boolean, perkalian Boolean dan komplemen variable Boolean. Kemudian 
 lakukan pengubahan dari definisi NOR tersebut.
 
 ## Problem 4 (50 poin)

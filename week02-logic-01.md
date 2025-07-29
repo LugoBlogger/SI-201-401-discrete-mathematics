@@ -12,10 +12,10 @@
 - Conditional statements (see 2022-09-12-logic.xopp)
   - An example that reflects truth tables of conditional
     statements (obligation)
-- Some variations of conditional statements
-  - converse
-  - contrapositive
-  - inverse
+- Some variations of conditional statements $p \rightarrow q$
+  - converse $q \rightarrow p$
+  - contrapositive $\neg q \rightarrow \neg p$
+  - inverse  $\neg p \rightarrow \neg q$
 - Truth table of conditional statements, converse, contrapositive, 
   and inverse to see tautologies/equivalent between them.
   
