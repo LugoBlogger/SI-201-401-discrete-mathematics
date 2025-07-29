@@ -6,9 +6,9 @@ This subject arose in the study of gambling games.
 ## The basics of counting
 
 **The product rule**   
-Suppose that a procedure can be broken down into a sequence of   
+Suppose that a procedure can be broken down into a sequence of 
 two tasks. if there are $n_1$ ways to do the first task and for 
-each of these wways of doing the first task, there are $n_2$ ways
+each of these ways of doing the first task, there are $n_2$ ways
 to do the second task, then there are $n_1 n_2$ ways do to the
 procedure
 
@@ -34,7 +34,7 @@ Suppose that either a member of the information systems study
 programme or a student who is an information systems major
 is chosen as a representative to an institute committee. How many
 different choices are there for this representative if there are
-37 members of the information systems study programme abd 83
+37 members of the information systems study programme and 83
 information systems majors and no one is both a study programme
 members and a student?
 
@@ -79,7 +79,7 @@ sizes: S, M, L, XL, and XXL. Further suppose that each size
 comes in four colors, white red, green, and black except for XL,
 which comes only in red, green, and black, and XXL, which
 comes only in green and black. How many different shirt does a 
-souveninr shop have to stock to have at least one of each available 
+souvenir shop have to stock to have at least one of each available 
 size and color of the T-shirt?
 
 ## Permutations and combinations
