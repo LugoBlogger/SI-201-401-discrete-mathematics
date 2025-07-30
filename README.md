@@ -10,4 +10,5 @@ Most of the notes are based on (Rosen, 2019)
 
 ## References
 - (Rosen, 2019) - Discrete Mathematics and Its Application, 8th Ed.
-- ()
+- (Lewis and Zax, 2019) - Essential Discrete Mathematics for Computer Science.
+- (O'Regan, 2016) - Guide to Discrete Mathematics

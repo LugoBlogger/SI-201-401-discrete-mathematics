@@ -1,4 +1,20 @@
-(Rosen, 2019) - Chapter 1
+# Week 02 - Logic - Part 1
+
+## Motivation
+
+- A smartphone and a case cost $110 in total. The phone costs $100 more than 
+  the case. How much does the case cost?
+
+- It takes 8 printers 8 minutes to print 8 brochures. How long would it take 
+  24 pinters to print 24 brochures?
+
+- On a field there is a patch of weeds. Every day the patch doubles in size. 
+  It takes 30 days  
+
+- On a field there is a patch of weeds. Every day the patch doubles in size. 
+  It takes 30 days for the patch to cover the whole field. How long
+  did it take for the patch to cover half the field?
+
 - What is Logic?
 - Propositions
 - Propositional variables
