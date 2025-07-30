@@ -1,7 +1,7 @@
-# SI-201-401 Discrete Mathematics
+# SI-251-4004 Discrete Mathematics 1
 
 All the collection of notes, assignments, and other stuffs while teaching
-Discrete Mathematics at Institut Teknologi Kalimantan. 
+Discrete Mathematics 1 at Institut Teknologi Kalimantan. 
 Most of the notes are based on (Rosen, 2019)
 
 ## Caveat writing math in GitHub Markdown
@@ -10,3 +10,4 @@ Most of the notes are based on (Rosen, 2019)
 
 ## References
 - (Rosen, 2019) - Discrete Mathematics and Its Application, 8th Ed.
+- ()
