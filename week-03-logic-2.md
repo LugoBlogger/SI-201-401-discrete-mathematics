@@ -1,4 +1,4 @@
-(Rosen, 2019) Chapter 1 and 2
+# Week 03 - Logic - Part 2
 
 - Review
 - Truth table of implication and bi-implication

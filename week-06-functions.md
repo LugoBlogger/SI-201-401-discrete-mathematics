@@ -1,4 +1,4 @@
-# Functions
+# Week 06 - Functions
 
 ## Motivation
 - Problem 1  

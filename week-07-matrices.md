@@ -1,4 +1,4 @@
-# Week 08 - Matrices
+# Week 07 - Matrices
 
 ## Motivation
 
